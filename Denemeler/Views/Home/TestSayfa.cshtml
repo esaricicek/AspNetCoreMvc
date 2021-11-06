@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "TestSayfa";
+    Layout = null;
+}
+
+<h1>Merhaba Dünya :) </h1>
+<br />
+
+@{
+    string ad = "Emrah";
+    var arr = new string[] { "Ali", "Veli", "Bartu" };
+
+    foreach (var item in arr)
+    {
+        @item
+        <br />
+    }
+
+    for (int i = 0; i < 10; i++)
+    {
+        <b>@i</b>
+        <br />
+    }
+
+}
