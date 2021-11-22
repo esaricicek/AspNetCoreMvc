@@ -9,7 +9,6 @@ C:\Users\Emrah\source\repos\Denemeler\Denemeler\bin\Debug\net5.0\ref\Denemeler.d
 C:\Users\Emrah\source\repos\Denemeler\Denemeler\bin\Debug\net5.0\Denemeler.pdb
 C:\Users\Emrah\source\repos\Denemeler\Denemeler\bin\Debug\net5.0\Denemeler.Views.dll
 C:\Users\Emrah\source\repos\Denemeler\Denemeler\bin\Debug\net5.0\Denemeler.Views.pdb
-C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Denemeler.csproj.AssemblyReference.cache
 C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Denemeler.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Denemeler.AssemblyInfoInputs.cache
 C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Denemeler.AssemblyInfo.cs
@@ -119,3 +118,9 @@ C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Razor\Views\Hom
 C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Razor\Views\Home\TestSayfa1.cshtml.g.cs
 C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Razor\Views\Shared\_Layout1.cshtml.g.cs
 C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Razor\Views\Home\TestSayfa2.cshtml.g.cs
+C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Razor\Views\Test\Listele.cshtml.g.cs
+C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Denemeler.csproj.AssemblyReference.cache
+C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Razor\Views\Test\Yeni.cshtml.g.cs
+C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Razor\Views\Ogrenci\Listele.cshtml.g.cs
+C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Razor\Views\Ogrenci\Yeni.cshtml.g.cs
+C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Razor\Views\Ogrenci\Guncelle.cshtml.g.cs

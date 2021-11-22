@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Denemeler.Models.Ogrenci>
+
+@{
+    ViewData["Title"] = "Listele";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Listele</h1>
+
+<p>
+    <a asp-action="Yeni">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Soyad)
+            </th>
+            <th>
+                Tc Kimlik No
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BolumAd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GirisYil)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Soyad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TCKimlikNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BolumAd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GirisYil)
+            </td>
+            <td>
+                @Html.ActionLink("Güncelle", "Guncelle", new {  id=item.Id  }) |
+                @Html.ActionLink("Details", "Detay", new {  id=item.Id  }) |
+                @Html.ActionLink("Delete", "Sil", new {  id=item.Id })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
