@@ -53,6 +53,26 @@ namespace Denemeler.Controllers
             return RedirectToAction("Listele");
         }
 
+        public IActionResult Detay(int id)
+        {
+            var r = Models.OgrenciVeri.Ogrenciler.FirstOrDefault(x => x.Id == id);
+            return View(r);
+        }
+
+        
+        public IActionResult Sil(int id)
+        {
+            var r = Models.OgrenciVeri.Ogrenciler.FirstOrDefault(x => x.Id == id);
+            return View(r);
+        }
+
+        [HttpPost]
+        public IActionResult Sil(Models.Ogrenci ogrenci)
+        {            
+            var r = Models.OgrenciVeri.Ogrenciler.FirstOrDefault(x => x.Id == ogrenci.Id);
+            Models.OgrenciVeri.Ogrenciler.Remove(r);
+            return RedirectToAction("Listele");
+        }
 
         //public IActionResult Index()
         //{

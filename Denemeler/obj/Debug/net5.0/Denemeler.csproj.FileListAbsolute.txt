@@ -17,7 +17,6 @@ C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Denemeler.MvcAp
 C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Denemeler.RazorAssemblyInfo.cache
 C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Denemeler.RazorAssemblyInfo.cs
 C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\staticwebassets\Denemeler.StaticWebAssets.Manifest.cache
-C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\staticwebassets\Denemeler.StaticWebAssets.xml
 C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\scopedcss\bundle\Denemeler.styles.css
 C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Denemeler.TagHelpers.input.cache
 C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Denemeler.TagHelpers.output.cache
@@ -124,3 +123,6 @@ C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Razor\Views\Tes
 C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Razor\Views\Ogrenci\Listele.cshtml.g.cs
 C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Razor\Views\Ogrenci\Yeni.cshtml.g.cs
 C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Razor\Views\Ogrenci\Guncelle.cshtml.g.cs
+C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Razor\Views\Test\GetDetay.cshtml.g.cs
+C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Razor\Views\Ogrenci\Detay.cshtml.g.cs
+C:\Users\Emrah\source\repos\Denemeler\Denemeler\obj\Debug\net5.0\Razor\Views\Ogrenci\Sil.cshtml.g.cs

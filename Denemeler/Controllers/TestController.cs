@@ -26,5 +26,11 @@ namespace Denemeler.Controllers
             return RedirectToAction("Listele");
         }
 
+        public IActionResult GetDetay(int id)
+        {
+            var x = Models.OgrenciVeri.Ogrenciler.FirstOrDefault(x => x.Id == id);
+            return View(x);
+        }
+
     }
 }
